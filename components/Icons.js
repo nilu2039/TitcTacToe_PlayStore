@@ -3,6 +3,7 @@ import React from "react";
 import Icon from "react-native-vector-icons/FontAwesome";
 
 const Icons  = ({name}) => {
+  
     switch (name) {
         case 'circle':
             return <Icon name = "circle-thin" size= {45} color = "black"></Icon>
